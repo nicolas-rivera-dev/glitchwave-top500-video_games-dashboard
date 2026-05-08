@@ -65,25 +65,25 @@ Source: [Glitchwave.com](https://glitchwave.com) · Collected as of April 21, 20
 | Adventure | 38 |
 | Action-Adventure | 38 |
 | First-Person Shooter | 33 |
-| Visual Novel | 22 |
 | Action RPG | 23 |
 | Fighting | 23 |
+| Visual Novel | 22 |
 | Strategy | 20 |
 | Action | 19 |
 
 ### Platform Distribution (Top 10)
-| Platform | Count |
+| Platform (Main) | Count |
 |---|---|
+| PC | 129 |
 | Multi | 122 |
-| PC | 89 |
-| PC / Multi | 35 |
-| PS2 | 17 |
-| Nintendo DS | 15 |
-| PS1 | 15 |
-| Arcade / Multi | 13 |
-| PS2 / Multi | 13 |
-| Game Boy Advance | 11 |
-| SNES / Multi | 11 |
+| PS2 | 36 |
+| PS1 | 23 |
+| Arcade | 21 |
+| Nintendo DS | 18 |
+| SNES | 16 |
+| Switch | 12 |
+| Gamecube | 14 |
+| Wii | 12 |
 
 ### Most Represented Developers
 | Developer | Games in Top 500 |
@@ -102,15 +102,15 @@ Source: [Glitchwave.com](https://glitchwave.com) · Collected as of April 21, 20
 
 | Visual | Fields Used |
 |---|---|
-| KPI — Total Games | `Ranking` (COUNT) |
-| KPI — Total Platforms | `Platform` (DISTINCTCOUNT) |
+| KPI — Total Games | `Game` (COUNT) |
+| KPI — Total Platforms | `Platform (Main)` (DISTINCTCOUNT) |
 | KPI — Total Developers | `Developer` (DISTINCTCOUNT) |
 | KPI — Average Rating | `Rating` (AVERAGE) |
-| Bar chart — Games by platform | `Platform`, COUNT |
+| Bar chart — Games by platform | `Platform (Main)`, COUNT |
 | Line chart — Games by year | `Release Year`, COUNT |
 | Treemap — Franchises | `Franchise`, COUNT |
 | Bar chart — Games by decade | `Decade` (calculated), COUNT |
-| Ranking table | All columns |
+| Ranking table | `Ranking`, `Game`, `Platform`, `Genre`, `Developer`, `Rating` |
 
 **Slicers/Filters:**
 - Genre
