@@ -2,7 +2,7 @@
 
 An interactive Power BI dashboard built around the **Top 500 best user-rated video games of all time** sourced from [Glitchwave](https://glitchwave.com/charts/top/game/all-time/). The project covers data collection, cleaning, modeling, and visualization — all in a single-page interactive report.
 
-![Dashboard Preview](assets/Dashboard%20Video_Games%20Official.png)
+![Dashboard Preview](assets/Dashboard%20Video%20Games%20Official.png)
 ---
 
 ## Project Overview
